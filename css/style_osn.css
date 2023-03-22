@@ -59,16 +59,47 @@ nav a {
     align-items: center;
 }
 .intr_img {
-    position: relative;
+    position: absolute;
+    z-index: -1;
 }
 .radius {
-    background: radial-gradient(39.02% 61.01% at 50% 50%, rgba(88, 49, 190, 0.35) 0%, rgba(16, 20, 32, 0) 85%);
+    background: radial-gradient(39.02% 61.01% at 50% 50%,
+    rgba(88, 49, 190, 0.35) 0%, rgba(16, 20, 32, 0) 85%);
 }
 .r_large {
     width: 561px;
     height: 327px;
+}
+.r_behind {
     position: absolute;
     top: -24px;
     left: -145px;
     z-index: -1;
+}
+.r_small {
+    width: 293px;
+    height: 171px;   
+}
+.r_left {
+    position: absolute;
+    top: -24px;
+    left: -267px;
+}
+.r_medium {
+    width: 437px;
+    height: 253px;
+}
+.r_right {
+    position: absolute;
+    top: 75px;
+    right: -365px;
+}
+.r_left_bottom {
+    position: absolute;
+    top: 32px;
+    left: -210px;
+}
+.intr_txt {
+    text-align: center;
+    font-size: 97px;
 }
