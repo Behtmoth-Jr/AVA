@@ -22,6 +22,9 @@ body {
     background-color:  #101420;
     font-family: "RobotoMono";
 }
+p {
+    color: white;
+}
 .wrapper {
     display: flex;
     width: 100%;
@@ -29,7 +32,6 @@ body {
     margin: auto;
 }
 .nav {
-    color: white;
     justify-content: space-between;
     margin-top: 72px;
     align-items: center;
@@ -47,4 +49,26 @@ body {
 }
 nav a {
     text-decoration: none;
+}
+.purple {
+    color: #5452BD;
+}
+.introduction {
+    margin-top: 74px;
+    flex-direction: column;
+    align-items: center;
+}
+.intr_img {
+    position: relative;
+}
+.radius {
+    background: radial-gradient(39.02% 61.01% at 50% 50%, rgba(88, 49, 190, 0.35) 0%, rgba(16, 20, 32, 0) 85%);
+}
+.r_large {
+    width: 561px;
+    height: 327px;
+    position: absolute;
+    top: -24px;
+    left: -145px;
+    z-index: -1;
 }
