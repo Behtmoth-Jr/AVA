@@ -33,7 +33,7 @@ p {
 }
 .nav {
     justify-content: space-between;
-    margin-top: 72px;
+    margin-top: 40px;
     align-items: center;
 }
 .id {
@@ -102,7 +102,7 @@ nav a {
 .intr_txt_large {
     font-size: 90px;
 }
-.intr_txt {
+.intr_txt_title {
     text-align: center;
     color: white;
 }

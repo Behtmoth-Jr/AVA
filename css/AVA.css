@@ -1,3 +1,25 @@
 .intr_ART {
     margin-top: 37px;
 }
+.about_txt_title {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+    font-size: 24px;
+}
+.about_jarvis_txt {
+    padding: 40px;
+    border: 2px solid #998BE2;
+    margin-top: 32px;
+    border-radius: 23px;
+    position: relative;
+} 
+.about_jarvis_txt::after {
+    content: " ";
+    position: absolute;
+    left: 100%;
+    top: 71px;
+    border-top: 37px solid #998be200;
+    border-left: 68px solid #998BE2;
+}
