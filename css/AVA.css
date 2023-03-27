@@ -1,12 +1,11 @@
 .intr_ART {
-    margin-top: 37px;
+    margin-top: 70px;
 }
 .about_txt_title {
     text-align: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 60px;
-    font-size: 24px;
 }
 .about_png_txt {
     padding: 40px;
@@ -42,4 +41,17 @@
     display: flex;
     width: 100%;
     margin: auto;
+}
+.jarvis {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 66px;
+    text-align: center;
+}
+.subtitle {
+    margin-bottom: 44px;
+}
+.subtitle p:first-child {
+    margin-bottom: 6px;
 }
