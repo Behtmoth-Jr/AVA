@@ -61,6 +61,7 @@ p {
 .id p:hover {
     color: #998BE2;
     transition: .3s ease-out;
+    animation: glitch-anim-1 0.4s infinite ease-in-out alternate-reverse;
 }
 .id a:last-of-type {
     border: none;
