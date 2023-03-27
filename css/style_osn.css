@@ -127,3 +127,20 @@ nav a {
     color: #E5EA44;
     font-size: 36px;
 }
+.jarvis img {
+    margin-bottom: 44px;
+}
+.btn {
+    text-decoration: none;
+    font-family: "xx";
+    font-size: 20px;
+    color: #000000;
+    background: #E5EA44;
+    border-radius: 56px;
+    padding: 14px 17px;
+    transition: .3s ease-out;
+}
+.btn:hover {
+    background: #f8ff07;
+    box-shadow: 0px 0px 7px 2px #e5ea44;
+}

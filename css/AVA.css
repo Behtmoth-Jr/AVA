@@ -55,3 +55,25 @@
 .subtitle p:first-child {
     margin-bottom: 6px;
 }
+.jarvis a {
+    margin-bottom: 93px;
+}
+.specs {
+    display: flex;
+    align-items: center;
+    background: radial-gradient(40.76% 157.11% at 107.61% 50.12%,
+    #3D2271 0%, #101420 100%);
+}
+.specs_item{
+    flex: 0 0 50%;
+}
+.specs img {
+    width: 100%;
+}
+.specs_txt {
+    max-width: 375px;
+    margin-left: 63px;
+}
+.specs p:first-child {
+    margin-bottom: 14px;
+}
