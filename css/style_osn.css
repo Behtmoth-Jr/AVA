@@ -48,12 +48,21 @@ p {
 .id {
     display: flex;
 }
-.id p {
+.id_active {
+    color: #998BE2;
+}
+.id a {
+    color: white;
     padding-left: 33px;
     padding-right: 33px;
     border-right: 1px solid #FFFFFF;
+    transition: .3s ease-out;
 }
-.id p:last-of-type {
+.id p:hover {
+    color: #998BE2;
+    transition: .3s ease-out;
+}
+.id a:last-of-type {
     border: none;
 }
 .purple {
