@@ -153,9 +153,11 @@ p {
     box-shadow: 0px 0px 7px 2px #e5ea44;
 }
 .footer {
-    margin-top: 50px;
-    flex-direction: column;
-    margin-bottom: 50px;
+    border-top: 1px solid #998BE2;
+    padding: 50px 0;
+}
+.AVA_footer {
+    border: none;
 }
 .footer_item {
     display: flex;

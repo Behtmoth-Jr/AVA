@@ -1,5 +1,22 @@
 main {
     background: radial-gradient(87.01% 52.91% at 50% 50%, 
     rgba(88, 49, 190, 0.6) 0%,
-    rgba(16, 20, 32, 0) 100%);
+    rgba(16, 20, 32, 0) 90%);
+}
+.buy {
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 66px;
+}
+.buy a {
+    color: #E5EA44;
+    text-decoration: underline;
+}
+.buy p {
+    margin-bottom: 36px;
+}
+.buy a:hover{
+    color: #998BE2;
+    transition: .3s ease-out;
 }
