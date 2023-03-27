@@ -28,6 +28,9 @@ body {
     background-color:  #101420;
     font-family: "RobotoMono";
 }
+body a {
+    text-decoration: none;
+}
 p {
     color: white;
 }
@@ -52,9 +55,6 @@ p {
 }
 .id p:last-of-type {
     border: none;
-}
-nav a {
-    text-decoration: none;
 }
 .purple {
     color: #5452BD;
@@ -131,7 +131,6 @@ nav a {
     margin-bottom: 44px;
 }
 .btn {
-    text-decoration: none;
     font-family: "xx";
     font-size: 20px;
     color: #000000;
