@@ -27,6 +27,7 @@ body {
     font-family: "RobotoMonoRegular";
     background-color:  #101420;
     font-family: "RobotoMono";
+    overflow-x: hidden;
 }
 body a {
     text-decoration: none;
