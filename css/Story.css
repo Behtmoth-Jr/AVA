@@ -39,3 +39,18 @@
 .story_attent p {
     color: #000000;
 }
+.founders {
+    margin-top: 60px;
+    flex-wrap: wrap;
+    margin-bottom: 82px;
+}
+.founders_title {
+    display: flex;
+    align-items: center;
+}
+.founders_item {
+    display: flex;
+    flex: 30%;
+    flex-direction: column;
+    margin: 15px;
+}
