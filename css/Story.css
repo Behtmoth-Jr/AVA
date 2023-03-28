@@ -9,3 +9,33 @@
     z-index: 1;
     position: absolute;
 }
+.story {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.story_item {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    max-width: 835px;
+    width: 100%;
+}
+.story_item_info {
+    border: 1px solid #998BE2;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.story_item_info p {
+    max-width: 375px;
+    padding: 10px;
+}
+.story_attent {
+    background-color: #998BE2;
+    padding: 27px 74px 37px;
+    text-align: center;
+}
+.story_attent p {
+    color: #000000;
+}
