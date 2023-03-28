@@ -120,6 +120,10 @@ p {
     font-size: 90px;
     font-family: "xx";
 }
+.xx_large_2 {
+    font-size: 64px;
+    font-family: "xx";
+}
 .intr_txt_title {
     text-align: center;
     color: white;
@@ -137,10 +141,9 @@ p {
     font-family: "xx";
     font-size: 36px;
 }
-.xx_medium_gold {
+.xx_gold {
     font-family: "xx";
     color: #E5EA44;
-    font-size: 36px;
 }
 .jarvis img {
     margin-bottom: 44px;

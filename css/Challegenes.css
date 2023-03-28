@@ -1,0 +1,43 @@
+.Challegenes {
+    margin-top: 90px;
+}
+.Challegenes_item {
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 56px;
+}
+.Challegenes_info {
+    max-width: 495px;
+    width: 100%;
+}
+.Challegenes_info p {
+    margin: 10px 20px
+}
+.Challegenes_bg_1 {
+    background: radial-gradient(31.17% 50.11% at 68.81% 102%,
+    rgba(58, 26, 99, 0.4) 0%,
+    rgba(42, 156, 184, 0.4) 0.01%,
+    rgba(16, 20, 32, 0) 114%);
+}
+.Challegenes_bg_2 {
+    background: radial-gradient(33.17% 50.11% at 29.81% 100%, 
+    rgba(88, 49, 190, 0.4) 0%,
+    rgba(84, 82, 189, 0.4) 0.01%,
+    rgba(16, 20, 32, 0) 99%);
+}
+.tokens {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 63px;
+}
+.tokens_img {
+    display: flex;
+    margin-bottom: 63px;
+}
+.tokens p:first-of-type {
+    margin-bottom: 25px;
+}
+.tokens_img img {
+    padding: 0 20px;
+}
