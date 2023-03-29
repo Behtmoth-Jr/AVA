@@ -48,7 +48,7 @@
     display: flex;
     align-items: center;
 }
-.founders_title {
+.founders_title p {
     margin-left: 18px;
 }
 .founders_item {
