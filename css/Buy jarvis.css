@@ -27,7 +27,7 @@ ul li::before {
     margin-bottom: 18px;
 }
 .buy_inf_subtitle {
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     text-decoration-line: underline;
     color: #E5EA44;
 }
@@ -51,4 +51,16 @@ ul li::before {
     position: absolute;
     top: -61px;
     right: -254px;
+}
+.verification {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 85px;
+}
+.verification_title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 117.68%;
+    margin-bottom: 18px;
 }
