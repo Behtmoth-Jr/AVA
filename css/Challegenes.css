@@ -15,6 +15,9 @@
     max-width: 495px;
     width: 100%;
 }
+.Challegenes_info p {
+    margin-bottom: 10px;
+}
 .Challegenes_bg_1 {
     background: radial-gradient(31.17% 50.11% at 68.81% 102%,
     rgba(58, 26, 99, 0.4) 0%,
