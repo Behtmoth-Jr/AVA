@@ -32,8 +32,9 @@ body {
 body a {
     text-decoration: none;
 }
-p {
+p, li {
     color: white;
+    list-style-type: none;
 }
 .wrapper {
     display: flex;

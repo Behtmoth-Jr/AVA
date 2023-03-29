@@ -1,0 +1,54 @@
+.buy {
+    flex-direction: column;
+}
+.buy_inf {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.buy_img {
+    margin-right: 70px;
+}
+.buy_gif {
+    max-width: 291px;
+    max-height: 291px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.buy_gif img {
+    transform: scale(1.24);
+    max-width: 100%;
+}
+ul li::before {
+    content: '*';
+    margin-right: 1px;
+}
+.buy_txt p:first-of-type {
+    margin-bottom: 18px;
+}
+.buy_inf_subtitle {
+    margin-bottom: 15px;
+    text-decoration-line: underline;
+    color: #E5EA44;
+}
+.buy_txt li {
+    margin-bottom: 15px;
+}
+.buy_item {
+    margin-bottom: 100px;
+}
+.buy_r_behind {
+    position: absolute;
+    top: -6px;
+    left: -105px;
+}
+.buy_r_left {
+    position: absolute;
+    top: 92px;
+    left: -199px;
+}
+.buy_r_right {
+    position: absolute;
+    top: -61px;
+    right: -254px;
+}

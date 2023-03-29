@@ -3,20 +3,20 @@ main {
     rgba(88, 49, 190, 0.6) 0%,
     rgba(16, 20, 32, 0) 90%);
 }
-.buy {
+.buy-here {
     margin-top: 100px;
     flex-direction: column;
     align-items: center;
     margin-bottom: 66px;
 }
-.buy a {
+.buy-here a {
     color: #E5EA44;
     text-decoration: underline;
 }
-.buy p {
+.buy-here p {
     margin-bottom: 36px;
 }
-.buy a:hover{
+.buy-here a:hover{
     color: #998BE2;
     transition: .3s ease-out;
 }
