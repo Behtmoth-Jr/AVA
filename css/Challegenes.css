@@ -29,15 +29,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 63px;
+    margin-bottom: 33px;
 }
 .tokens_img {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 63px;
+    justify-content: center;
 }
 .tokens p:first-of-type {
     margin-bottom: 25px;
 }
 .tokens_img img {
-    padding: 0 20px;
+    padding: 20px;
 }
