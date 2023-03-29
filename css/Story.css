@@ -48,6 +48,9 @@
     display: flex;
     align-items: center;
 }
+.founders_title {
+    margin-left: 18px;
+}
 .founders_item {
     display: flex;
     flex: 30%;
